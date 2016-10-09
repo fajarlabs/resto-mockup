@@ -1,0 +1,514 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Restoran UI</title>
+	<!-- fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Lobster|Roboto+Condensed|Satisfy" rel="stylesheet" />
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+	<link rel="stylesheet" type="text/css" href="css/style.css" />
+	<link rel="stylesheet" type="text/css" href="css/font-awesome.css" />
+</head>
+<body>
+<div class="container">
+	<div class="row" id="halamanDepan">
+		<div class="col-xs-12 navbar">
+			<div class="row">
+				<div class="col-xs-12">
+					<h1 class="font-satisfy">Selamat datang di rumah makan bebek sudirman</h1>
+					<h3>~ Silahkan pilih menu makan ditempat atau beli langsung ~</h3>	
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-xs-1"></div>
+				<div class="col-xs-10 content" style="height:400px;display: table;width:100%;padding:0;">
+					<div style="height: 100%; display:table-cell; vertical-align: middle;">
+					<button id="btnMakanLangsung" class="btn btn-primary shadow btn-navbar">MAKAN LANGSUNG</button>
+					&nbsp;&nbsp;&nbsp;
+					<button id="btnMakanDibungkus" class="btn btn-success shadow btn-navbar">BUNGKUS</button>
+					</div>
+				</div>
+				<div class="col-xs-1"></div>
+			</div>
+		</div>
+	</div>	
+
+
+	<div class="row" id="halamanPilihKursi">
+		<div class="col-xs-12">
+			<table>
+				<tr>
+					<td>
+						<button id="btnKembaliPilihKursi" style="width:150px;height:70px; font-size:1.5em;" class="btn btn-primary shadow"><i class="fa fa-arrow-circle-left"></i> Kembali</button>						
+					</td>
+					<td>
+						<table style="border:3px dotted #ffffff;">
+							<tr>
+								<td colspan="6" style="text-align: center;">
+									<h1>~ Silahkan pilih meja makan ~</h1>
+								</td>
+							</tr>
+							<tr>
+								<td><button style="width:150px;height:70px; font-size:1.5em;" class="btn btn-warning">Meja 1</button></td>
+								<td><button style="width:150px;height:70px; font-size:1.5em;" class="btn btn-warning">Meja 2</button></td>
+								<td><button style="width:150px;height:70px; font-size:1.5em;" class="btn btn-warning">Meja 3</button></td>
+								<td><button style="width:150px;height:70px; font-size:1.5em;" class="btn btn-warning">Meja 4</button></td>
+								<td><button style="width:150px;height:70px; font-size:1.5em;" class="btn btn-warning">Meja 4</button></td>
+								<td><button style="width:150px;height:70px; font-size:1.5em;" class="btn btn-warning">Meja 4</button></td>
+							</tr>
+							<tr>
+								<td><button style="width:150px;height:70px; font-size:1.5em;" class="btn btn-warning">Meja 4</button></td>
+								<td><button style="width:150px;height:70px; font-size:1.5em;" class="btn btn-warning">Meja 5</button></td>
+								<td><button style="width:150px;height:70px; font-size:1.5em;" class="btn btn-warning">Meja 6</button></td>
+								<td><button style="width:150px;height:70px; font-size:1.5em;" class="btn btn-warning">Meja 7</button></td>
+								<td><button style="width:150px;height:70px; font-size:1.5em;" class="btn btn-warning">Meja 7</button></td>
+								<td><button style="width:150px;height:70px; font-size:1.5em;" class="btn btn-warning">Meja 7</button></td>
+							</tr>
+							<tr>
+								<td><button style="width:150px;height:70px; font-size:1.5em;" class="btn btn-warning">Meja 6</button></td>
+								<td><button style="width:150px;height:70px; font-size:1.5em;" class="btn btn-warning">Meja 7</button></td>
+								<td><button style="width:150px;height:70px; font-size:1.5em;" class="btn btn-warning">Meja 8</button></td>
+								<td><button style="width:150px;height:70px; font-size:1.5em;" class="btn btn-warning">Meja 9</button></td>
+								<td><button style="width:150px;height:70px; font-size:1.5em;" class="btn btn-warning">Meja 9</button></td>
+								<td><button style="width:150px;height:70px; font-size:1.5em;" class="btn btn-warning">Meja 9</button></td>
+							</tr>
+							<tr>
+								<td><button style="width:150px;height:70px; font-size:1.5em;" class="btn btn-danger">Meja 10</button></td>
+								<td><button style="width:150px;height:70px; font-size:1.5em;" class="btn btn-warning">Meja 12</button></td>
+								<td><button style="width:150px;height:70px; font-size:1.5em;" class="btn btn-warning">Meja 13</button></td>
+								<td><button style="width:150px;height:70px; font-size:1.5em;" class="btn btn-danger">Meja 14</button></td>
+								<td><button style="width:150px;height:70px; font-size:1.5em;" class="btn btn-danger">Meja 14</button></td>
+								<td><button style="width:150px;height:70px; font-size:1.5em;" class="btn btn-danger">Meja 14</button></td>
+							</tr>
+							<tr>
+								<td><button style="width:150px;height:70px; font-size:1.5em;" class="btn btn-warning">Meja 14</button></td>
+								<td><button style="width:150px;height:70px; font-size:1.5em;" class="btn btn-warning">Meja 15</button></td>
+								<td><button style="width:150px;height:70px; font-size:1.5em;" class="btn btn-warning">Meja 16</button></td>
+								<td><button style="width:150px;height:70px; font-size:1.5em;" class="btn btn-warning">Meja 17</button></td>
+								<td><button style="width:150px;height:70px; font-size:1.5em;" class="btn btn-warning">Meja 17</button></td>
+								<td><button style="width:150px;height:70px; font-size:1.5em;" class="btn btn-warning">Meja 17</button></td>
+							</tr>
+							<tr>
+								<td><button style="width:150px;height:70px; font-size:1.5em;" class="btn btn-warning">Meja 18</button></td>
+								<td><button style="width:150px;height:70px; font-size:1.5em;" class="btn btn-danger">Meja 19</button></td>
+								<td><button style="width:150px;height:70px; font-size:1.5em;" class="btn btn-warning">Meja 20</button></td>
+								<td><button style="width:150px;height:70px; font-size:1.5em;" class="btn btn-warning">Meja 4</button></td>
+								<td><button style="width:150px;height:70px; font-size:1.5em;" class="btn btn-warning">Meja 4</button></td>
+								<td><button style="width:150px;height:70px; font-size:1.5em;" class="btn btn-warning">Meja 4</button></td>
+							</tr>
+							<tr>
+								<td colspan="3"><button class="btn btn-primary form-control std-input"><i class="fa fa-arrow-circle-left"></i> Meja Awal</button></td>
+								<td colspan="3"><button class="btn btn-primary form-control std-input">Meja Selanjutnya <i class="fa fa-arrow-circle-right"></i></button></td>
+							</tr>
+							<tr>
+								<td colspan="6" style="text-align: center"><i class="fa fa-clock-o"></i> Waktu habis dalam 180 detik</td>
+							</tr>
+						</table>
+					</td>
+					<td>
+						<button id="btnLanjutPilihKursi" class="btn btn-primary shadow" style="width:150px;height:70px; font-size:1.5em;">Lanjut <i class="fa fa-arrow-circle-right"></i></button>
+					</td>
+				</tr>
+			</table>	
+		</div>
+	</div>
+
+
+	<div class="row" style="margin-top:10px" id="halamanPilihMakanan">
+		<div class="col-xs-12">
+			<table>
+				<tr>
+					<td colspan="3" style="text-align: center;">
+						<h1>~ Pilih Makanan ~</h1>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<button id="btnKembaliPilihMakanan" style="width:150px;height:70px; font-size:1.5em;" class="btn btn-primary shadow"><i class="fa fa-arrow-circle-left"></i> Kembali</button>		
+					</td>
+					<td>
+					    <table style="border: 2px dotted #fff;">
+					     	<tr>
+					     		<td colspan="2"><input type="text" class="form-control std-input" placeholder="Cari nama makanan..." /></td>
+					     	</tr>
+					     	<tr>
+					     		<td style="background: #ccc;">
+					     			<table class="menu-dalam">
+					     				<tr>
+					     					<td style="font-size:2em;">Bakso Urat Biasa</td>
+					     					<td rowspan="3">
+					     						<a class="fancybox" href="uploads/produk/bakso.jpg"><img class="thumbnail std-imgmenu" src="uploads/produk/bakso.jpg" /></a>
+					     					</td>
+					     				</tr>
+					     				<tr>
+					     					<td style="font-size:1.3em;font-weight: bold;">Harga Rp. 10.000,-</td>
+					     				</tr>
+					     				<tr>
+					     					<td>
+					     						<table>
+					     							<tr>
+					     								<td>Beli </td>
+					     								<td>
+					     									<select class="form-control">
+					     										<option value="0">0</option>
+					     										<option value="1">1</option>
+					     										<option value="2">2</option>
+					     										<option value="3">3</option>
+					     									</select>
+					     								</td>
+					     								<td>
+					     									/Porsi
+					     								</td>
+					     							</tr>
+					     						</table>
+					     					</td>
+					     					<td>
+					     				</tr>
+					     			</table>
+					     		</td>
+					     		<td style="background: #ccc;">
+					     			<table class="menu-dalam">
+					     				<tr>
+					     					<td style="font-size:2em;">Bakso Urat Spesial</td>
+					     					<td rowspan="3">
+					     						<a class="fancybox" href="uploads/produk/bakso.jpg"><img class="thumbnail std-imgmenu" src="uploads/produk/bakso.jpg" /></a>
+					     					</td>
+					     				</tr>
+					     				<tr>
+					     					<td style="font-size:1.3em;font-weight: bold;">Harga Rp. 10.000,-</td>
+					     				</tr>
+					     				<tr>
+					     					<td>
+					     						<table>
+					     							<tr>
+					     								<td>Beli </td>
+					     								<td>
+					     									<select class="form-control">
+					     										<option value="0">0</option>
+					     										<option value="1">1</option>
+					     										<option value="2">2</option>
+					     										<option value="3">3</option>
+					     									</select>
+					     								</td>
+					     								<td>
+					     									/Porsi
+					     								</td>
+					     							</tr>
+					     						</table>
+					     					</td>
+					     					<td>
+					     				</tr>
+					     			</table>
+					     		</td>
+					     	</tr>
+					     	<tr>
+					     		<td style="background: #ccc;">
+					     			<table class="menu-dalam">
+					     				<tr>
+					     					<td style="font-size:2em;">Bakso Urat Biasa</td>
+					     					<td rowspan="3">
+					     						<a class="fancybox" href="uploads/produk/bakso.jpg"><img class="thumbnail std-imgmenu" src="uploads/produk/bakso.jpg" /></a>
+					     					</td>
+					     				</tr>
+					     				<tr>
+					     					<td style="font-size:1.3em;font-weight: bold;">Harga Rp. 10.000,-</td>
+					     				</tr>
+					     				<tr>
+					     					<td>
+					     						<table>
+					     							<tr>
+					     								<td>Beli </td>
+					     								<td>
+					     									<select class="form-control">
+					     										<option value="0">0</option>
+					     										<option value="1">1</option>
+					     										<option value="2">2</option>
+					     										<option value="3">3</option>
+					     									</select>
+					     								</td>
+					     								<td>
+					     									/Porsi
+					     								</td>
+					     							</tr>
+					     						</table>
+					     					</td>
+					     					<td>
+					     				</tr>
+					     			</table>
+					     		</td>
+					     		<td style="background: #ccc;">
+					     			<table class="menu-dalam">
+					     				<tr>
+					     					<td style="font-size:2em;">Bakso Urat Spesial</td>
+					     					<td rowspan="3">
+					     						<a class="fancybox" href="uploads/produk/bakso.jpg"><img class="thumbnail std-imgmenu" src="uploads/produk/bakso.jpg" /></a>
+					     					</td>
+					     				</tr>
+					     				<tr>
+					     					<td style="font-size:1.3em;font-weight: bold;">Harga Rp. 10.000,-</td>
+					     				</tr>
+					     				<tr>
+					     					<td>
+					     						<table>
+					     							<tr>
+					     								<td>Beli </td>
+					     								<td>
+					     									<select class="form-control">
+					     										<option value="0">0</option>
+					     										<option value="1">1</option>
+					     										<option value="2">2</option>
+					     										<option value="3">3</option>
+					     									</select>
+					     								</td>
+					     								<td>
+					     									/Porsi
+					     								</td>
+					     							</tr>
+					     						</table>
+					     					</td>
+					     					<td>
+					     				</tr>
+					     			</table>
+					     		</td>
+					     	</tr>
+					     	<tr>
+					     		<td style="background: #ccc;">
+					     			<table class="menu-dalam">
+					     				<tr>
+					     					<td style="font-size:2em;">Bakso Urat Biasa</td>
+					     					<td rowspan="3">
+					     						<a class="fancybox" href="uploads/produk/bakso.jpg"><img class="thumbnail std-imgmenu" src="uploads/produk/bakso.jpg" /></a>
+					     					</td>
+					     				</tr>
+					     				<tr>
+					     					<td style="font-size:1.3em;font-weight: bold;">Harga Rp. 10.000,-</td>
+					     				</tr>
+					     				<tr>
+					     					<td>
+					     						<table>
+					     							<tr>
+					     								<td>Beli </td>
+					     								<td>
+					     									<select class="form-control">
+					     										<option value="0">0</option>
+					     										<option value="1">1</option>
+					     										<option value="2">2</option>
+					     										<option value="3">3</option>
+					     									</select>
+					     								</td>
+					     								<td>
+					     									/Porsi
+					     								</td>
+					     							</tr>
+					     						</table>
+					     					</td>
+					     					<td>
+					     				</tr>
+					     			</table>
+					     		</td>
+					     		<td style="background: #ccc;">
+					     			<table class="menu-dalam">
+					     				<tr>
+					     					<td style="font-size:2em;">Bakso Urat Spesial</td>
+					     					<td rowspan="3">
+					     						<a class="fancybox" href="uploads/produk/bakso.jpg"><img class="thumbnail std-imgmenu" src="uploads/produk/bakso.jpg" /></a>
+					     					</td>
+					     				</tr>
+					     				<tr>
+					     					<td style="font-size:1.3em;font-weight: bold;">Harga Rp. 10.000,-</td>
+					     				</tr>
+					     				<tr>
+					     					<td>
+					     						<table>
+					     							<tr>
+					     								<td>Beli </td>
+					     								<td>
+					     									<select class="form-control">
+					     										<option value="0">0</option>
+					     										<option value="1">1</option>
+					     										<option value="2">2</option>
+					     										<option value="3">3</option>
+					     									</select>
+					     								</td>
+					     								<td>
+					     									/Porsi
+					     								</td>
+					     							</tr>
+					     						</table>
+					     					</td>
+					     					<td>
+					     				</tr>
+					     			</table>
+					     		</td>
+					     	</tr>
+					     	<tr>
+					     		<td style="background: #ccc;">
+					     			<table class="menu-dalam">
+					     				<tr>
+					     					<td style="font-size:2em;">Bakso Urat Biasa</td>
+					     					<td rowspan="3">
+					     						<a class="fancybox" href="uploads/produk/bakso.jpg"><img class="thumbnail std-imgmenu" src="uploads/produk/bakso.jpg" /></a>
+					     					</td>
+					     				</tr>
+					     				<tr>
+					     					<td style="font-size:1.3em;font-weight: bold;">Harga Rp. 10.000,-</td>
+					     				</tr>
+					     				<tr>
+					     					<td>
+					     						<table>
+					     							<tr>
+					     								<td>Beli </td>
+					     								<td>
+					     									<select class="form-control">
+					     										<option value="0">0</option>
+					     										<option value="1">1</option>
+					     										<option value="2">2</option>
+					     										<option value="3">3</option>
+					     									</select>
+					     								</td>
+					     								<td>
+					     									/Porsi
+					     								</td>
+					     							</tr>
+					     						</table>
+					     					</td>
+					     					<td>
+					     				</tr>
+					     			</table>
+					     		</td>
+					     		<td style="background: #ccc;">
+					     			<table class="menu-dalam">
+					     				<tr>
+					     					<td style="font-size:2em;">Bakso Urat Spesial</td>
+					     					<td rowspan="3">
+					     						<a class="fancybox" href="uploads/produk/bakso.jpg"><img class="thumbnail std-imgmenu" src="uploads/produk/bakso.jpg" /></a>
+					     					</td>
+					     				</tr>
+					     				<tr>
+					     					<td style="font-size:1.3em;font-weight: bold;">Harga Rp. 10.000,-</td>
+					     				</tr>
+					     				<tr>
+					     					<td>
+					     						<table>
+					     							<tr>
+					     								<td>Beli </td>
+					     								<td>
+					     									<select class="form-control">
+					     										<option value="0">0</option>
+					     										<option value="1">1</option>
+					     										<option value="2">2</option>
+					     										<option value="3">3</option>
+					     									</select>
+					     								</td>
+					     								<td>
+					     									/Porsi
+					     								</td>
+					     							</tr>
+					     						</table>
+					     					</td>
+					     					<td>
+					     				</tr>
+					     			</table>
+					     		</td>
+					     	</tr>
+					     	<tr>
+					     		<td><button class="btn btn-primary form-control std-input"><i class="fa fa-arrow-circle-left"> Makanan awal</button></td>
+					     		<td><button class="btn btn-primary form-control std-input">Makanan lainnya <i class="fa fa-arrow-circle-right"></button></td>
+					     	</tr>
+					    </table>
+					</td>
+					<td>
+						<button id="btnLanjutBayar" class="btn btn-primary shadow" style="width:250px;height:70px; font-size:1.5em;">Cetak & Bayar ke Kasir <i class="fa fa-arrow-circle-right"></i></button>
+					</td>
+				</tr>
+
+			</table>
+
+		</div>
+	</div>
+</div>
+
+<script type="text/javascript" src="js/jquery-1.11.2.min.js"></script>
+<script type="text/javascript" src="js/jquery-ui-1.10.3.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<!-- Add fancyBox main JS and CSS files -->
+<script type="text/javascript" src="plugins/fancybox/jquery.fancybox.js?v=2.1.5"></script>
+<link rel="stylesheet" type="text/css" href="plugins/fancybox/jquery.fancybox.css?v=2.1.5" media="screen" />
+
+<script type="text/javascript">
+	$(document).ready(function() {
+		$('.fancybox').fancybox();
+	});
+</script>
+
+<script type="text/javascript">
+    /* button */
+	var btnMakanLangsung = $("#btnMakanLangsung");
+	var btnMakanDibungkus = $("#btnMakanDibungkus");
+	var btnKembaliPilihKursi = $("#btnKembaliPilihKursi");
+	var btnLanjutPilihKursi = $("#btnLanjutPilihKursi");
+	var btnKembaliPilihMakanan = $("#btnKembaliPilihMakanan");
+
+	/* div */
+	var halamanDepan = $("#halamanDepan");
+	var halamanPilihKursi = $("#halamanPilihKursi");
+	var halamanPilihMakanan = $("#halamanPilihMakanan");
+	
+	/* listener */
+	btnMakanLangsung.on("click",function() {
+		lanjutKeHalamanPilihKursi();
+	});
+	btnMakanDibungkus.on("click",function() {
+		lanjutKeHalamanMenuMakanan();
+	});
+	btnKembaliPilihKursi.on("click",function() {
+		kembaliKeHalamanDepan();
+	});
+	btnLanjutPilihKursi.on("click",function() {
+		lanjutKeHalamanMenuMakanan();
+	});
+	btnKembaliPilihMakanan.on("click",function() {
+		lanjutKeHalamanPilihKursi();
+	});
+
+	/* kumpulan fungsi */
+	function kembaliKeHalamanDepan() {
+		halamanDepan.show();
+		halamanPilihKursi.hide();
+		halamanPilihMakanan.hide();
+	}
+
+	function lanjutKeHalamanMenuMakanan() {
+		halamanDepan.hide();
+		halamanPilihKursi.hide();
+		halamanPilihMakanan.show();	
+	}
+
+	function lanjutKeHalamanPilihKursi() {
+		halamanDepan.hide();
+		halamanPilihKursi.show();
+		halamanPilihMakanan.hide();	
+	}
+
+	function pilihMejaSelanjutnya() {
+
+	}
+
+	function pilihMejaMundur() {
+
+	}
+
+	function halamanAwal() {
+		halamanDepan.show();
+		halamanPilihKursi.hide();
+		halamanPilihMakanan.hide();	
+	}
+
+	$(document).ready(function() {
+		halamanAwal();
+	});
+
+</script>
+
+
+</body>
+</html>
